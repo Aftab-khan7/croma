@@ -558,4 +558,5 @@ input:focus {
 
 @media(max-width:525px){
     .hero-scroll-sm{display:block;}
+    .hero-large-section {display:none;}
 }
