@@ -257,78 +257,80 @@
 
 <script>
  
+  $(document).ready(function () {
 
- $('.hero-scroll').slick({
-  infinite: true,
-  speed: 500,
-  fade: true,
-  cssEase: 'linear',
-
-
-  prevArrow: '<button class="custom-previous custom-arrow-btn slick-arrow" type="button" aria-label="Previous" style=""><svg class="flickity-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow"></path></svg></button>',
-   nextArrow: '<button class="custom-next custom-arrow-btn slick-arrow" type="button" aria-label="Next" style=""><svg class="flickity-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow" transform="translate(100, 100) rotate(180) "></path></svg></button>',
-
-});
+        $('.hero-scroll').slick({
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear',
 
 
-$('.categories').slick({
-  infinite: true,
-  slidesToShow: 10,
-  slidesToScroll: 3,
-  prevArrow: '<button class="custom-category-previous custom-arrow-category-btn slick-arrow" type="button" aria-label="Previous" style=""><svg class="flickity-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow"></path></svg></button>',
-  nextArrow: '<button class="custom-category-next custom-arrow-btn slick-arrow" type="button" aria-label="Next" style=""><svg class="flickity-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow" transform="translate(100, 100) rotate(180) "></path></svg></button>',
+            prevArrow: '<button class="custom-previous custom-arrow-btn slick-arrow" type="button" aria-label="Previous" style=""><svg class="flickity-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow"></path></svg></button>',
+            nextArrow: '<button class="custom-next custom-arrow-btn slick-arrow" type="button" aria-label="Next" style=""><svg class="flickity-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow" transform="translate(100, 100) rotate(180) "></path></svg></button>',
+
+        });
 
 
-  responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '60px',
-            slidesToShow: 8
-          }
-        },
-        
-        {
-          breakpoint: 768,
-          settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '60px',
-            slidesToShow: 5
-          }
-        },
-
-        {
-          breakpoint: 425,
-          settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '60px',
-            slidesToShow: 0
-          }
-        },
-
-        {
-          breakpoint: 320,
-          settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '60px',
-            slidesToShow: 0
-          }
-        },
-        
-      ]
+        $('.categories').slick({
+            infinite: true,
+            slidesToShow: 10,
+            slidesToScroll: 3,
+            prevArrow: '<button class="custom-category-previous custom-arrow-category-btn slick-arrow" type="button" aria-label="Previous" style=""><svg class="flickity-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow"></path></svg></button>',
+            nextArrow: '<button class="custom-category-next custom-arrow-btn slick-arrow" type="button" aria-label="Next" style=""><svg class="flickity-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow" transform="translate(100, 100) rotate(180) "></path></svg></button>',
 
 
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '60px',
+                        slidesToShow: 8
+                    }
+                },
+
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '60px',
+                        slidesToShow: 5
+                    }
+                },
+
+                {
+                    breakpoint: 425,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '60px',
+                        slidesToShow: 0
+                    }
+                },
+
+                {
+                    breakpoint: 320,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '60px',
+                        slidesToShow: 0
+                    }
+                },
+
+            ]
 
 
 
-});
 
 
+        });
+
+console.log("code updated")
+    })
 
 
 
