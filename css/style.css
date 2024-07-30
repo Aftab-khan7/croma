@@ -544,6 +544,6 @@ input:focus {
     }
 
     .hero-large-section {
-        display: none;
+        display: none !IMPORTANT;
     }
 }
