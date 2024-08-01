@@ -157,8 +157,14 @@ input:focus {
     width: 100%;
 }
 
-.hero-scroll-sm {
-    display: none !important;
+.hero-sm-section .hero-scroll button{
+    display: none;
+    visibility: hidden;
+}
+
+
+.hero-sm-section .hero-sm-images img {
+    display: none;
 }
 
 .hero-images {
@@ -274,27 +280,26 @@ input:focus {
 }
 
 
-.offers {
+
+.offers{
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
-
+    
 }
 
 .offers-image {
     padding: 0 10px;
     width: 50%;
 }
-
-.offers-image img {
-    width: 100%;
+.offers-image img{
+    width: 568px;
     border-radius: 7px;
 }
 
-.offers-image-sm {
-    flex: 1 1 50%;
-
+.offers-image-sm img{
+    display: none;
+    
 }
 
 
@@ -371,344 +376,34 @@ input:focus {
     margin: auto;
 }
 
-.apple-accessories-section h3 {
-    color: #fff;
-    padding: 30px 0px 10px 0px;
-    font-size: 1.5rem;
 
-}
 
-.apple-accessories-images {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
 
-}
 
-.accessories {
-    width: 33.33%;
-    padding: 0px 5px;
 
-}
 
-.accessories img {
-    width: 100%;
-}
 
 
 
-/*  What’s Hot */
 
-.whats-hot-section {
-    padding-top: 20px;
-    width: 90%;
-    margin: auto;
-}
 
-.whats-hot-section h3 {
-    color: #fff;
-    padding: 30px 0px 10px 5px;
-    font-size: 1.5rem;
 
-}
 
 
-.left-whats-hot {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-evenly;
-}
 
-.right-whats-hot {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-evenly;
-}
 
 
-.whats-hot {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.whats-hot-image {
-    width: 45%;
-}
 
-.whats-hot-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 7px;
-}
 
 
-/*  Limited Time Deals */
 
-.limited-deals-section {
-    width: 90%;
-    padding: 20px;
-    margin: auto;
 
-}
 
-.limited-deals-section h3 {
-    color: #fff;
-    font-size: 1.5rem;
-    padding: 30px 0px 10px 5px;
 
-}
 
 
-.limited-deals-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
-
-}
-
-.deals-image {
-    width: 50%;
-}
-
-.deals-image img {
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    border-radius: 17px;
-}
-
-/*  Unboxed by Croma */
-
-.unboxed-section {
-    width: 100%;
-    padding: 20px 0px;
-    margin: auto;
-}
-
-
-.unboxed-image {
-    width: 100%;
-
-}
-
-.unboxed {
-    width: auto;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.unboxed-image img {
-    width: 100%;
-    height: auto;
-    position: relative;
-}
-
-.unboxed-text {
-    color: #fff;
-    position: absolute;
-    width: 50%;
-    height: auto;
-    padding-left: 50px;
-    right: 8%;
-    top: 50%;
-    transform: translatey(-50%);
-    display: inline-block;
-
-
-}
-
-.unboxed-text h1 {
-    font-size: 3.5rem;
-    padding: 20px 0px;
-
-}
-
-.unboxed-text p {
-    font-size: 1.5rem;
-    padding: 20px 0px;
-
-}
-
-.unboxed-btn {
-    width: 140px;
-    height: auto;
-    background-color: #12daa8;
-    border-radius: 7px;
-    cursor: pointer;
-}
-
-.unboxed-btn:hover {
-    background-color: #12be93;
-}
-
-.unboxed-btn p {
-    font-size: 1.3rem;
-    width: 140px;
-    height: auto;
-    text-align: center;
-    padding: 10px 20px;
-    color: black;
-    font-weight: 700;
-}
-
-
-/*   Footer */
-
-.footer {
-    display: flex;
-    justify-content: space-evenly;
-
-}
-
-.vl {
-    border-left: 1px solid #fff;
-    height: 400px;
-    padding: 0px 25px;
-
-}
-
-
-.footer-section {
-    width: 90%;
-    padding: 20px 0px 20px 0px;
-    margin: auto;
-    color: white;
-    cursor: pointer;
-}
-
-
-
-.connect-us h3 {
-    color: white;
-    font-size: 1.1rem;
-    text-transform: uppercase;
-
-}
-
-.email-input {
-    padding: 4px 0px;
-    background-color: #ffffff;
-    border-radius: 7px;
-
-}
-
-.email-input input {
-    width: 85%;
-    border: none;
-
-}
-
-
-.email-input input::placeholder {
-    font-size: 1.1rem;
-
-}
-
-#email {
-    padding: 15px 25px;
-}
-
-
-.email-input i {
-    font-size: 1.5rem;
-    color: black;
-
-
-}
-
-.social-links {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.social-links a {
-    color: white;
-}
-
-.social-links a .fa-youtube:hover {
-    color: red;
-}
-
-.social-links a .fa-facebook:hover {
-    color: rgb(72, 72, 194);
-}
-
-
-.social-links a .fa-x-twitter:hover {
-    color: rgb(72, 72, 194);
-}
-
-.social-links a .fa-linkedin:hover {
-    color: rgb(72, 72, 194);
-}
-
-.social-links i {
-    font-size: 1.5rem;
-}
-
-
-.copy-rights {
-    margin-top: 50px;
-}
-
-
-/* useful links*/
-
-
-.link-list {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.link-list a {
-    color: #fff;
-
-}
-
-.link-list li {
-    padding: 10px 0px;
-}
-
-.right-list{
-    margin-left: 9px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*  Unboxed by Croma */
-
-
-
-
-
-
-
-
-
-/*      ********************  Respnsive Widht 1200 ******************** */
-
-
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1138px) {
     .navbar {
         padding-left: 20px;
     }
@@ -731,24 +426,8 @@ input:focus {
     .navbar {
         padding-left: 10px;
     }
-
-    .offers-sm {
-        display: none !important;
-    }
-
-    .unboxed-sm-image {
-        display: none;
-
-    }
-
-
-
-}
-
-
-@media screen and (min-width:1024px) {
-    .navbar {
-        padding-left: 10px;
+    .offers-image img {
+        width: 442px;
     }
 
     .offers-sm {
@@ -768,24 +447,7 @@ input:focus {
 
 /*      ********************  Respnsive Widht 991 ******************** */
 
-@media screen and (max-width:991px) {
-    .navbar-section {
-        height: 110px;
-
-    }
-
-    .search-navbar-sm {
-        padding: 15px 0px;
-        width: 90%;
-        margin: auto;
-       
-    }
-    
-    #search{
-        width: 100%;
-        
-    }
-
+@media screen and (max-width:768px) {
     .navbar {
         padding-left: 0;
     }
@@ -822,9 +484,19 @@ input:focus {
     .offers-image img {
         width: 333px;
     }
+}
 
-    .offers-sm {
-        display: none !important;
+
+
+
+
+
+
+
+@media screen and (max-width:672px) {
+    .navbar-section {
+        height: 90px;
+
     }
 
     .navbar {
@@ -983,223 +655,62 @@ input:focus {
     .hero-large-section .hero-lg-images img {
         display: none;
     }
-
-    .hero-sm-images {
-        width: 100%;
-    }
-
-    .hero-sm-images img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .hero-scroll-sm {
-        display: block !important;
-    }
-
-    .hero-large-section button {
-        visibility: hidden;
-    }
-
-    .unboxed-text h1 {
-        font-size: 1.4rem;
-        padding: 5px 0px;
-    }
-
-    .unboxed-text p {
-        font-size: .8rem;
-        padding: 5px 0px;
-    }
-
-    .vl-sm {
-        display: none;
-    }
-
-    .footer-section {
-        width: 100%;
-        padding: 5px;
-    }
-
-    .footer {
-        display: inline-block !important;
-    }
-
-    .connect-us {
-        width: 80%;
-        margin: auto;
-        text-align: center;
-    }
-
-    .useful-links {
-        width: 50%;
-        float: left;
-        padding: 50px;
-    }
-
-    .product {
-        width: 50%;
-        float: right;
-        padding: 50px;
-    }
-
-    .footer{
-        position: relative;
-    }
-    .copy-rights{
-        position: absolute;
-        bottom: 5px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 100%;
-    }
-
-
 }
 
-/*      ********************  Respnsive Widht 425 ******************** */
-
-@media screen and (max-width:425px) {
 
 
+@media screen and (max-width:425px ) {
+    .offers-image img{
+        display: none;
+    }
+    .offers-image-sm img{
+        display: inline;
+        float: left;
+        width: 190px;
+        padding: 15px 10px;
+        
+    }
+
+    .offers-image-sm img{
+        border-radius: 27px;
+    } 
+    
+
+    
+}
+
+
+@media screen and (max-width:321px) {
+       .offers-image-sm img{
+        width: 150px;
+        padding: 5px 5px;
+        
+    }
     .categories {
         width: 100%;
     }
 
-    .federal-bank-section {
-        width: 100%;
-        padding: 5px;
-    }
+    
 
-    .federal-bank-section h3 {
-        font-size: 1.2rem;
-    }
-
-    .federal-bank-offer {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .federal-bank-image {
-        width: 100%;
-    }
-
-    .federal-bank-image img {
-        width: 100%;
-    }
-
-    .new-fav-section {
-        width: 100%;
-        padding: 5px;
-    }
-
-    .apple-accessories-images {
-        flex-direction: column;
-    }
-
-    .accessories {
-        width: 100%;
-    }
-
-    .apple-accessories-section {
-        width: 100%;
-        padding: 5px;
-    }
-
-    .apple-accessories-section h3 {
-        font-size: 1.2rem;
-    }
-
-    .accessories img {
-        width: 100%;
-    }
-
-    .whats-hot {
-        flex-direction: column;
-    }
-
-    .whats-hot-section h3 {
-        font-size: 1.2rem;
-    }
-
-    .whats-hot-section {
-        width: 100%;
-        padding: 5px;
-    }
-
-    .limited-deals-section {
-        width: 100%;
-        padding: 5px;
-    }
-
-    .limited-deals-section h3 {
-        font-size: 1.2rem;
-    }
-
-    .limited-deals-image {
-        flex-direction: column;
-    }
-
-    .deals-image {
-        width: 100%;
-    }
-
-    .deals-image img {
-        width: 100%;
-        height: auto;
-    }
-
-    .unboxed-section {
-        width: 100%;
-        padding: 5px;
-    }
-
-    .unboxed-lg-image {
-        display: none !important;
-    }
-
-    .unboxed-sm-image {
-        display: inline-block;
-    }
-
-    .unboxed-text {
-        width: 100%;
-        padding: 0px 10px 0px 15px;
-        right: 0;
-    }
-
-    .unboxed-text h1 {
-        font-size: 2.4rem;
-        padding: 15px 0px;
-    }
-
-    .unboxed-text p {
-        font-size: 1rem;
-        padding: 5px 0px;
-    }
-
-    .footer{
-        position: relative;
-    }
-    .copy-rights{
-        position: absolute;
-        bottom: 5px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 100%;
-    }
-
-    .useful-links {
-        width: 100%;
-        padding-top: 25px;
-    }
-
-    .product {
-        width: 100%;
-        padding-top: 25px;
-    }
-
-
-
-
+    
 }
+
+
+
+
+
+
+
+/*
+
+
+@media screen and (max-width:920px) {
+    .menu-text a p{
+        display: none;
+    }
+    .location-navbar {
+        display: none;
+    }
+}
+}*/
+
